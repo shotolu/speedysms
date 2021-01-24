@@ -1,0 +1,739 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	height: 10vh;
+	background-color: #318FC0;
+}
+
+nav img{
+	float: left;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+.nav_links{
+	display: flex;
+	list-style: none;
+	width: 60%;
+	height: 100%;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: auto;
+	margin-right: 30px;
+}
+
+.nav_links a{
+	color: #fff;
+	font-family: helvetica;
+	font-size: 18px;
+	font-weight: normal;
+	text-decoration: none;
+	transition: all .5s ease;
+}
+
+.nav_links a:hover{
+	color: black;
+	transition: all .5s ease;
+}
+
+.nav_links button{
+	width: 100px;
+	height: 40px;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	background-color: #318FC0;
+	color: #fff;
+	cursor: pointer;
+}
+
+.nav_links #white{
+	border: none;
+	background-color: #fff;
+	color: #318FC0;
+}
+
+.hero{
+	width: 100%;
+}
+
+.hero img{
+	float: right;
+	margin-top: 40px;
+}
+
+.hero .text{
+	float: left;
+	margin-left: 30px;
+	margin-top: 100px;
+	width: 40%;
+}
+
+.hero .text h1{
+	font-size: 55px;
+	font-weight: bolder;
+	color: #232323
+}
+
+.hero .text p{
+	font-family: helvetica;
+	font-size: 18px;
+	font-weight: normal;
+	color: #3d3d3d;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.hero button{
+	width: 150px;
+	height: 40px;
+	border: none;
+	border-radius: 5px;
+	background-color: #318FC0;
+	color: #fff;
+	cursor: pointer;
+}
+
+.benefits{
+	clear: both;
+	background-image: url(images/rectangle4.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 1150px;
+}
+
+.benefits h3{
+	font-size: 36px;
+	font-weight: bolder;
+	color: #fff;
+	text-align: center;
+	padding-top: 180px;
+}
+
+.benefits .bene{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 70px;
+	margin-left: 30px;
+	margin-right: 30px;
+	text-align: center;
+}
+
+.benefits .bene .card{
+	width: 30%;
+	text-align: center;
+}
+
+.benefits .bene .card div{
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	background-color: #fff;
+	margin: auto;
+	text-align: center;
+}
+
+.benefits .bene .card div img{
+	margin-top: 40px;
+}
+
+.benefits .bene .card h5{
+	color: #fff;
+	font-family: helvetica;
+	font-size: 21px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.benefits .bene .card p{
+	color: #fff;
+	font-family: helvetica;
+	font-size: 18px;
+	font-weight:normal;
+	margin-top: 15px;
+}
+
+.steps{
+	width: 100%;
+	display: inline-block;
+}
+
+.steps h3{
+	font-size: 36px;
+	font-weight: bolder;
+	color: #232323;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.steps .dash{
+	width: 100px;
+	height: 3px;
+	background-color: #318FC0;
+	margin: auto;
+}
+
+.steps .first .b1{
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.steps .first div{
+	float: right;
+	margin-left: 40px;
+	margin-right: 30px;
+	margin-top: 80px;
+	width: 40%;
+}
+
+.steps .first div h5{
+	color: #232323;
+	font-family: helvetica;
+	font-size: 21px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.steps .first div p{
+	color: #3d3d3d;
+	font-family: helvetica;
+	font-size: 18px;
+	font-weight: normal;
+	margin-top: 20px;
+}
+
+.steps .second .b2{
+	float: right;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.steps .second div{
+	float: left;
+	margin-left: 30px;
+	margin-right: 40px;
+	margin-top: 80px;
+	width: 40%;
+}
+
+.steps .second div h5{
+	color: #232323;
+	font-family: helvetica;
+	font-size: 21px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.steps .second div p{
+	color: #3d3d3d;
+	font-family: helvetica;
+	font-size: 18px;
+	font-weight: normal;
+	margin-top: 20px;
+}
+
+.steps .lines{
+	text-align: center;
+}
+
+.message{
+	width: 100%;
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.message h3{
+	font-size: 36px;
+	font-weight: bolder;
+	color: #232323;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.message .dash{
+	width: 100px;
+	height: 3px;
+	background-color: #318FC0;
+	margin: auto;
+}
+
+.message h5{
+	color: #232323;
+	font-family: helvetica;
+	font-size: 21px;
+	font-weight: bold;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.message .text_field{
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+.message .text_field li input{
+	width: 300px;
+	height: 35px;
+	padding-left: 20px;
+	border: 2px solid lightblue;
+	border-radius: 5px;
+}
+
+.message .msg{
+	text-align: center;
+}
+
+.message .msg textarea{
+	margin: 20px 30px;
+	width: 1120px;
+	height: 300px;
+	border: 2px solid lightblue;
+	border-radius: 5px;
+	padding-left: 20px;
+}
+
+.but button{
+	width: 100px;
+	height: 40px;
+	border: none;
+	border-radius: 5px;
+	background-color: #318FC0;
+	color: #fff;
+	cursor: pointer;
+	margin-left: 60px;
+}
+
+footer{
+	background-color: #318FC0;
+	margin-top: 30px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+footer .first, footer .second, footer .third{
+	margin: 30px;
+}
+
+footer .first h4, footer .second h4, footer .third h4{
+	color: #fff;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+footer .first ul li, footer .second ul li{
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+footer .first ul li a, footer .second ul li a
+{
+	color: #fff;
+	font-family: helvetica;
+	font-size: 18px;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+footer .third img{
+	height: 50px;
+	width: 50px;
+	margin: 20px;
+}
+
+.bottom{
+	color: #fff;
+	background-color: #318FC0;
+	font-family: helvetica;
+	font-size: 14px;
+	font-weight: normal;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+	.nav_links{width: 65%;}
+
+	.hero img{
+		width: 570px;
+		height: 390px;
+	}
+
+	.hero .text{margin-top: 60px;}
+
+	.steps .first .b1 img{
+		width: 350px;
+		height: 225px;
+	}
+
+	.steps .second .b2 img{
+		width: 350px;
+		height: 225px;
+	}
+
+	.steps .lines img{
+		width: 600px;
+	}
+
+	.message .msg textarea{
+		width: 900px;
+	}
+}
+
+@media screen and (max-width: 1100px){
+	.benefits .bene .card div{left: 70px;}
+
+	.message .msg textarea{
+		width: 700px;
+	}
+
+	.message .text_field li input{
+		width: 220px;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	nav img{
+		width: 150px;
+		height: 30px;
+		margin-top: 15px;
+	}
+
+	.nav_links{width: 70%;}
+
+	.nav_links a{font-size: 16px;}
+
+	.hero img{
+		width: 480px;
+		height: 340px;
+	}
+
+	.hero .text{margin-top: 60px;}
+
+	.hero .text h1{font-size: 35px;}
+
+	.hero .text p{font-size: 16px;}
+
+	.benefits h3{font-size: 28px; margin-left: 30px; margin-right: 30px;}
+
+	.benefits .bene .card div{margin: auto;}
+
+	.benefits .bene .card h5{font-size: 18px;}
+
+	.benefits .bene .card p{font-size: 16px;}
+
+	.steps h3{font-size: 28px; margin-left: 30px; margin-right: 30px;}
+
+	.steps .second img, .steps .first img{
+		width: 60px;
+		height: 60px;
+		margin-left: 30px; 
+		margin-right: 30px;
+	}
+
+	.steps .first div h5{font-size: 18px; margin-left: 30px; margin-right: 30px;}
+
+	.steps .first div p{font-size: 16px; margin-left: 30px; margin-right: 30px;}
+
+	.steps .second div h5{font-size: 18px; margin-left: 30px; margin-right: 30px;}
+
+	.steps .second div p{font-size: 16px; margin-left: 30px; margin-right: 30px;}
+
+	.message h3{font-size: 28px; margin-left: 30px; margin-right: 30px;}
+
+	.message h5{font-size: 18px;}
+
+	.message .msg textarea{
+		width: 550px;
+	}
+
+	.message .text_field li input{
+		width: 180px;
+	}
+
+	footer .first ul li a, footer .second ul li a{
+		font-size: 16px;
+	}
+
+	footer .first h4, footer .second h4, footer .third h4{
+		font-size: 23px;
+	}
+
+	footer .third img{
+		width: 35px;
+		height: 35px;
+	}
+}
+
+@media screen and (max-width: 850px){
+	nav img{
+		width: 100px;
+		height: 25px;
+	}
+
+	.nav_links{width: 75%;}
+
+	.hero img{
+		width: 400px;
+		height: 270px;
+	}
+
+	.hero .text{margin-top: 30px;}
+
+	.benefits .bene .card div{
+		width: 150px;
+		height: 150px;
+	}
+
+	.benefits .bene .card div img{
+	    margin-top: 40px;
+	    width: 70px;
+	    height: 70px;
+    }
+
+    .steps .first .b1 img{
+		width: 300px;
+		height: 200px;
+	}
+
+	.steps .second .b2 img{
+		width: 300px;
+		height: 200px;
+	}
+
+	.steps .lines img{
+		width: 400px;
+	}
+}
+
+@media screen and (max-width: 750px){
+	nav img{
+		margin-top: 20px;
+	}
+	
+	nav{position: relative;}
+
+	nav .hamburger{
+		position: absolute;
+		cursor: pointer;
+		right: 30px;
+		top: 50%;
+		transform: translate(-5%, -50%);
+		z-index: 2;
+	}
+	nav .line{
+		width: 30px;
+		height: 3px;
+		background-color: #fff;
+		margin: 5px;
+	}
+
+	.nav_links{
+		position: fixed;
+		background: #318FC0;
+		height: 100vh;
+		width: 100%;
+		flex-direction: column;
+		clip-path: circle(100px at 90% -15%); 
+		-webkit-clip-path: circle(100px at 90% -15%);
+		transition: all 1s ease-out;
+		pointer-events: none;
+	}
+
+	.nav_links.open{
+		clip-path: circle(1000px at 90% -15%); 
+		-webkit-clip-path: circle(1000px at 90% -15%);
+		pointer-events: all;
+	}
+
+	.nav_links li{
+		opacity: 0;
+	}
+
+	.nav_links li a{
+		font-size: 16px;
+	}
+
+	.nav_links li:nth-child(1){
+		transition: all 0.5s ease 0.2s;
+	}
+
+	.nav_links li:nth-child(2){
+		transition: all 0.5s ease 0.4s;
+	}
+
+	.nav_links li:nth-child(3){
+		transition: all 0.5s ease 0.6s;
+	}
+
+	.nav_links li:nth-child(4){
+		transition: all 0.5s ease 0.8s;
+	}
+
+	.nav_links li:nth-child(5){
+		transition: all 0.5s ease 1.0s;
+	}
+
+	li.fade{
+		opacity: 1;
+	}
+
+	.hero img{
+		display: none;
+	}
+
+	.hero .text{
+		width: 100%;
+		text-align: center;
+		float: right;
+	}
+
+	.hero .text h1, .hero .text p{
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+
+	.benefits{
+		display: inline-block;
+		background-image: none;
+		background-color: #318FC0;
+		height: 1900px;
+		margin-top: 30px;
+	}
+
+	.benefits .bene{
+		display: block;
+	}
+
+	.benefits h3{
+		padding-top: 30px;
+	}
+
+	.benefits .bene .card{
+		width: 100%;
+		margin-top: 40px;
+	}
+
+	.benefits .bene .card div{
+		margin: auto;
+	}
+
+	.steps .first div, .steps .second div{
+		float: none;
+		width: 100%;
+		margin: 20px auto;
+	}
+
+	.steps .first .b1, .steps .second .b2{
+		float: none;
+		text-align: center;
+		margin: 20px auto;
+	}
+
+	.steps .lines img{
+		width: 250px;
+	}
+
+	.message .text_field{
+		display: block;
+	}
+
+	.message .text_field li{
+		text-align: center;
+		margin-top: 20px;
+	}
+
+	.message .text_field li input{
+		width: 300px;
+	}
+
+	.message .msg textarea{
+		width: 300px;
+		height: 150px;
+	}
+
+	.but{
+		text-align: center;
+	}
+
+	.but button{
+		margin-left: 0;
+	}
+
+	footer{
+		display: block;
+		padding-top: 30px;
+	}
+
+	.bottom{
+		margin-top: -30px;
+	}
+
+}
+
+@media screen and (max-width: 410px){
+	.benefits{
+		height: 2000px;
+	}
+
+	.message .text_field li input{
+		width: 250px;
+	}
+
+	.message .msg textarea{
+		width: 250px;
+	}
+}
+
